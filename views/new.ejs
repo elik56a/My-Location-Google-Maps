@@ -1,0 +1,12 @@
+<%  include ./partials/header %>
+
+<h1>Add New Map</h1>
+<h2>Just Enter Location, And You Will Get A Map!!</h2>
+<form action="/maps" method="POST">
+   <input type="text" name="location" id="location" placeholder="location here">
+   <button class="btn-sub">submit!</button>
+</form>
+
+<br>
+<a class="btn" href="/maps">Home</a>
+<%  include ./partials/footer %>

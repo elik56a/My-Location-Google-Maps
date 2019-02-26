@@ -1,0 +1,16 @@
+<%  include ./partials/header %>
+
+<h1>Index Page</h1>
+
+<% mapsGoogle.forEach(function (mapG) { %>
+<div>
+    Adrees: <a href="/maps/<%=mapG.id%>"><%= mapG.location %></a>
+
+    <% }); %>
+</div>
+
+<br>
+<a class="btn" href="/maps/new">Add new map</a>
+
+
+<%  include ./partials/footer %>

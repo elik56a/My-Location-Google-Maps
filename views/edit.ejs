@@ -1,0 +1,14 @@
+<%  include ./partials/header %>
+
+<h1>Edit <%= mapsGoogle.location%></h1>
+
+<form action="/maps/<%=mapsGoogle.id%>?_method=PUT" method="POST">
+
+    <input type="text" name="location" id="location" placeholder="location here" value="<%=mapsGoogle.location%>">
+
+    <button class="btn">Update!</button>
+</form>
+<br>
+<a class="btn" href="/maps">Home</a>
+
+<%  include ./partials/footer %>

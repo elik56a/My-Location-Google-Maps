@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: url("https://images.unsplash.com/photo-1549291774-47aadc8cd297?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    
+
+}
+#map{
+    margin: 0 auto; 
+    width:100%;
+    height:250px;
+}
+.buttons{
+    padding:10px ;
+}
+.form{
+    display: inline;
+}
+
+
+.btn {
+    background-color: #555555; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #555555;
+  }
+  
+  .btn:hover {
+    background-color: #555555;
+    color: white;
+  .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);}
